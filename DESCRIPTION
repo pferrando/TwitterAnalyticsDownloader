@@ -12,3 +12,5 @@ LazyData: true
 Imports:
   RSelenium
 RoxygenNote: 6.0.1
+URL: https://github.com/pferrando/TwitterAnalyticsDownloader
+Issues: https://github.com/pferrando/TwitterAnalyticsDownloader/issues
