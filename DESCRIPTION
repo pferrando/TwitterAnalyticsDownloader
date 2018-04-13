@@ -1,0 +1,14 @@
+Package: TwitterAnalyticsDownloader
+Type: Package
+Title: Download of tweet activity data from Twitter Analytics
+Version: 0.1.0
+Author: Pol Ferrando
+Maintainer: Pol Ferrando <polferrando91@gmail.com>
+Description: This package downloads the tweet activity data from the analytics section 
+    of a twitter account (https://analytics.twitter.com) for any given period.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+  RSelenium
+RoxygenNote: 6.0.1
