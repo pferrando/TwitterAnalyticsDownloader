@@ -23,6 +23,7 @@
 #' twitter_analytics_downloader("username", "password", "2018-01-01", "2018-04-01", "C:/Users/ABCD/Downloads")}
 twitter_analytics_downloader <- function(username, password, start_date, end_date, download_directory=getwd()){
   ### Twitter Analytics report downloader using Selenium browser interaction
+  require(RSelenium)
   ## Start a selenium server and a chrome browser
   open_browser(download_directory)
   ## Navigate to tweets tab of Twitter Analytics (require login)
